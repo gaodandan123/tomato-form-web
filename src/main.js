@@ -9,6 +9,7 @@ import router from './router';
 import store from './store/index';
 // 验证规则可在 rules.js文件添加
 import rules from '@/utils/rules';
+import '@/assets/style/global.less';
 
 Vue.config.productionTip = false;
 Vue.prototype.$rules = rules;
